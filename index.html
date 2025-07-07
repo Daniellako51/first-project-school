@@ -3,28 +3,197 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>kingdom college</title>
-   <link rel="stylesheet" href="first-project-school home.css">
+    <title>Exceed PLC</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="navigation">
+    <header class="navigation">
       <div class="logo">
-        <img src="logo.png" alt=" kingdom college" />
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="education.html">education</a>
-            </li>
-            <li>
-                <a href="service.html">service</a>
-            </li>
-            <li>
-                <a href="contact us .html">contact us</a>
-            </li>
-        </ul>
+        <a href="index.html" aria-label="Home">
+          <img
+            src="images/images.jpeg"
+            alt=""
+            width="80"
+            height="80"
+          />
+        </a>
+
       </div>
-    </div>
+      <nav>
+        <button class="menu-toggle" aria-label="Toggle navigation menu">
+          <span class="menu-icon">&#9776;</span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#home" aria-current="page">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <h1>Welcome to Kingdom College</h1>
+          <h2>Empowering Students for a Brighter Future</h2>
+          <p>
+            Hi, I'm Daniel – passionate web developer and educator, helping
+            students and clients achieve their goals through technology and
+            creativity.
+          </p>
+          <a href="#contact" class="btn-primary">Get in Touch</a>
+        </div>
+      </section>
+
+      <section class="bio" id="about">
+        <img
+          src="images/dani.png"
+          alt="Daniel's profile picture"
+          width="300"
+          height="400"
+        />
+        <div class="bio-content">
+          <h2>About Me</h2>
+          <p>
+            I'm Daniel, a dedicated web developer and educator at Kingdom
+            College. My mission is to inspire and equip students with the skills
+            they need to succeed in the digital world.
+          </p>
+          <p class="bio-extended">
+            With a background in modern web technologies and a passion for
+            teaching, I create engaging learning experiences and innovative web
+            solutions.
+          </p>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+          <article class="service-card">
+            <img src="images/download.jpeg" alt="Tutoring illustration" />
+            <div class="service-content">
+              <h3>Web Development Tutoring</h3>
+              <p>Personalized lessons in HTML, CSS, JavaScript, and more.</p>
+            </div>
+          </article>
+          <article class="service-card">
+            <img
+              src="images/ux_ui_design_322afd6292.webp"
+              alt="UI/UX Design illustration"
+            />
+            <div class="service-content">
+              <h3>UI/UX Design Workshops</h3>
+              <p>
+                Hands-on sessions to master user interface and experience
+                design.
+              </p>
+            </div>
+          </article>
+          <article class="service-card">
+            <img
+              src="images/images copy.jpeg"
+              alt="Project Mentoring illustration"
+            />
+            <div class="service-content">
+              <h3>Project Mentoring</h3>
+              <p>Guidance and support for student and client web projects.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-container">
+          <article class="project-card">
+            <img src="images/IMG_3653.jpg" alt="Portfolio Website Screenshot" />
+            <div class="project-content">
+              <h3>Student Portfolio Platform</h3>
+              <p>
+                A modern, responsive platform for students to showcase their
+                work.
+              </p>
+              <a href="#" class="btn-secondary">View Project</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img
+              src="images/64dcc893c5140_html_vs_css.jpg"
+              alt="Landing Page Screenshot"
+            />
+            <div class="project-content">
+              <h3>Interactive Learning Landing Page</h3>
+              <p>
+                Engaging landing page for online learning, focused on UI/UX.
+              </p>
+              <a href="#" class="btn-secondary">View Project</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+      <section class="testimonials" id="testimonials">
+        <h2>Services</h2>
+        <div class="testimonials-container">
+          <blockquote>
+            <p>
+              "Exceed is an inspiring teacher and a talented developer. My
+              skills improved dramatically!"
+            </p>
+            <footer> <a href="/html/project.html">Student A, Web Development Class</a></footer>
+          </blockquote>
+          <blockquote>
+            <p>
+              "Creative, reliable, and highly skilled. I highly recommend Exceed
+              for any web project."
+            </p>
+            <footer> <a href="/html/service.html">Exceed project of Manager</a></footer>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="newsletter" id="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form class="newsletter-form" action="#" method="POST">
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <button type="submit" class="btn-primary">Subscribe</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 Exceed Adanced Software Trainings.</p>
+        <p>
+          Contact:
+          <a href="mailto:lakodaniel09@gmail.com">lakodaniel09@gmail.com</a> |
+          +251 970 512 550
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // Toggle mobile menu
+      document
+        .querySelector(".menu-toggle")
+        .addEventListener("click", function () {
+          document.querySelector(".nav-links").classList.toggle("active");
+        });
+    </script>
   </body>
 </html>

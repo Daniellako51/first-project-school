@@ -1,0 +1,186 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  border: none;
+}
+.logo img {
+  width: 80px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+.navigation ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: space-around;
+  gap: 39px;
+  font-size: medium;
+}
+
+body {
+  background-color: #080000;
+}
+
+.navigation ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+
+  background-color: rgb(97, 200, 150);
+  padding: 50px;
+}
+
+.main .hanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.main .hanner p {
+  width: 50%;
+}
+
+.bio {
+  display: flex;
+  gap: 30px;
+
+  padding: 50px;
+}
+
+.bio img {
+  width: 25%;
+  height: 40vh;
+}
+
+.bio .note {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 300px;
+  color: white;
+}
+
+.bio .note button {
+  background-color: brown;
+  padding: 10px 20px;
+  width: 200px;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Service section */
+
+.group h1 {
+  text-align: center;
+  color: rgb(216, 219, 227);
+}
+
+.group .container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.group .container .card {
+  border: 1px solid black;
+  width: 400px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+
+.container .card a {
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: orange;
+}
+
+.container .card a:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.container .card img {
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+}
+
+.container .note {
+  padding: 40px;
+}
+
+.container .note h1 {
+  color: black;
+}
+
+.container .note p {
+  color: rgb(15, 3, 1);
+}
+
+.container .card button {
+  background-color: rgb(209, 80, 58);
+  padding: 7px 15px;
+  color: white;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.menu {
+  display: none;
+}
+
+/* @media (max-width: 900px) {
+  .group .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 525px) {
+  .navigation ul {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    color: white;
+  }
+  .main .hanner p {
+    width: 80%;
+    text-align: justify;
+  }
+  .hidden {
+    display: none;
+  }
+  .bio {
+    display: flex;
+    flex-direction: column;
+  }
+  .bio img {
+    width: 100%;
+    height: 40vh;
+  }
+  .bio .note {
+    width: 100%;
+  }
+} */
+
+
